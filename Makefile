@@ -211,7 +211,7 @@ controller:
 
 .PHONY: packr
 packr:
-	go build -o ${DIST_DIR}/packr ./vendor/github.com/gobuffalo/packr/packr/
+	go build -o ${DIST_DIR}/packr github.com/gobuffalo/packr/packr/
 
 .PHONY: image
 ifeq ($(DEV_IMAGE), true)

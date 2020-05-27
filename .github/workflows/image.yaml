@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - go-mod-dev-build
 
 jobs:
   publish:
